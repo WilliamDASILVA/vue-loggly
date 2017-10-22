@@ -1,0 +1,46 @@
+{
+  "name": "vue-loggly",
+  "version": "1.0.0",
+  "description": "Loggly wrapper for VueJS",
+  "main": "dist/src/index.js",
+  "files": [
+    "dist/src/index.js.map"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "gulp-concat": "^2.6.1",
+    "babelify": "^7.3.0",
+    "browserify": "^14.5.0",
+    "gulp-sourcemaps": "^2.6.1",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WilliamDASILVA/vue-loggly.git"
+  },
+  "keywords": [
+    "loggly",
+    "vuejs",
+    "wrapper",
+    "plugin"
+  ],
+  "author": "William DA SILVA <william.da.silva@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WilliamDASILVA/vue-loggly/issues"
+  },
+  "homepage": "https://github.com/WilliamDASILVA/vue-loggly#readme",
+  "dependencies": {
+    "axios": "^0.17.0"
+  }
+}
