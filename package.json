@@ -1,11 +1,8 @@
 {
   "name": "vue-loggly",
-  "version": "1.0.0",
+  "version": "1.0.9",
   "description": "Loggly wrapper for VueJS",
-  "main": "dist/src/index.js",
-  "files": [
-    "dist/src/index.js.map"
-  ],
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "gulp"
