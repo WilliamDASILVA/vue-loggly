@@ -202,11 +202,14 @@ VueLoggly.install = (Vue, opts) => {
 
   tracker.push(options);
   
-  Vue.prototype.$loggly = (tracking) => {
+  function _loggly(tracking) {
     if (tracking) {
       tracker.push(tracking);
     }
-  };
+  }
+
+  Vue.prototype.$loggly = _loggly;
+  Vue.loggly = _loggly;
 };
 
 export default VueLoggly;
